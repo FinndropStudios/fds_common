@@ -11,10 +11,10 @@
  ***************************************************************/
 
 $EM_CONF[$_EXTKEY] = array (
-  'title' => 'Dinndrop Studios - Common',
-  'description' => 'Common snippets',
+  'title' => 'Finndrop Studios - Common',
+  'description' => 'Common viewhelpers extending typo3',
   'category' => 'plugin',
-  'version' => '7.6.0',
+  'version' => '',
   'state' => 'stable',
   'uploadfolder' => false,
   'createDirs' => '',
