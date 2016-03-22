@@ -56,12 +56,15 @@ class CategoriesViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractView
             $backup = $this->templateVariableContainer->get($as);
             $this->templateVariableContainer->remove($as);
         }
+
         $this->templateVariableContainer->add($as, $rows);
         $output = $this->renderChildren();
         $this->templateVariableContainer->remove($as);
+
         if (isset($backup)) {
             $this->templateVariableContainer->add($as, $backup);
         }
+        
         return $output;
     }
 
