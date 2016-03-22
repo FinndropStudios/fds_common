@@ -1,0 +1,10 @@
+{
+  "name": "finndrop/fds_common",
+  "description": "common viewhelpers extending typo3",
+  "type": "typo3-cms-extension",
+  "autoload": {
+    "psr-4": {
+      "Finndrop\\FdsCommon\\": "Classes"
+    }
+  }
+}

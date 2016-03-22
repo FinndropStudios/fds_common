@@ -1,5 +1,5 @@
 <?php
-namespace Finndrop\fdsCommon\ViewHelpers;
+namespace Finndrop\FdsCommon\ViewHelpers;
 
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Frontend\Category\Collection\CategoryCollection;
