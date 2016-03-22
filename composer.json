@@ -11,6 +11,15 @@
       "role": "Developer"
     }
   ],
+  "extra": {
+    "typo3/cms": {
+      "Package": {
+        "protected": true,
+        "partOfFactoryDefault": true,
+        "partOfMinimalUsableSystem": true
+      }
+    }
+  }
   "autoload": {
     "psr-4": {
       "Finndrop\\FdsCommon\\": "Classes"
