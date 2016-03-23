@@ -1,6 +1,7 @@
 {
   "name": "finndrop/fds_common",
   "description": "common viewhelpers extending typo3",
+  "homepage": "https://git.finndrop-office.de/projects/TYPO/repos/fds_common",
   "type": "typo3-cms-extension",
   "license": "MIT",
   "authors": [
@@ -19,7 +20,7 @@
         "partOfMinimalUsableSystem": true
       }
     }
-  }
+  },
   "autoload": {
     "psr-4": {
       "Finndrop\\FdsCommon\\": "Classes"
