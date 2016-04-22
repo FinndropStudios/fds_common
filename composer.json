@@ -1,7 +1,7 @@
 {
   "name": "finndrop/fds_common",
   "description": "common viewhelpers extending typo3",
-  "homepage": "https://git.finndrop-office.de/projects/TYPO/repos/fds_common",
+  "homepage": "https://github.com/FinndropStudios/fds_common",
   "type": "typo3-cms-extension",
   "license": "MIT",
   "authors": [
