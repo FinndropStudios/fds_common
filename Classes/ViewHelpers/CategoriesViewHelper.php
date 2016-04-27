@@ -1,7 +1,7 @@
 <?php
 namespace Finndrop\FdsCommon\ViewHelpers;
 
-use Finndrop\FdsCommon\Classes\CategoryApi;
+use Finndrop\FdsCommon\CategoryApi;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Frontend\Category\Collection\CategoryCollection;
 
