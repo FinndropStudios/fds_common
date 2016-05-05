@@ -13,7 +13,7 @@ class CopyrightViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewH
     }
 
     /**
-     * @return array
+     * @return string
      */
     public function render()  {
 
@@ -21,7 +21,7 @@ class CopyrightViewHelper extends \TYPO3\CMS\Fluid\Core\ViewHelper\AbstractViewH
         $timestamp = time();
         $year = date('Y', $timestamp);
 
-        return '<span>&copy; ' . $year . ' ' . $this->arguments['owner'] . '</span>';
+        return '&copy; ' . $year . ' ' . $this->arguments['owner'];
     }
 
 }
